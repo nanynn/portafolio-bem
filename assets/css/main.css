@@ -1,0 +1,27 @@
+@import url("https://fonts.google.com/?selection.family=Open+Sans:400,700&query=op");
+.flex-container {
+  display: flex; }
+
+.a-menu {
+  justify-content: flex-end;
+  background-color: #f04949;
+  text-decoration: none; }
+
+.a-menu__item {
+  list-style: none; }
+
+.a-menu__item__link {
+  text-decoration: none;
+  color: #fff; }
+
+.portfolio.flex-container {
+  flex-direction: column;
+  padding: 70px;
+  text-align: center; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
