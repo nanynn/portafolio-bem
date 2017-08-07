@@ -1,5 +1,6 @@
 # Ejercicio Evaluado de BEM
 Modificador de metodos de elementos *(Block Element Modifier)*
+
 El objetivo es dividir la interfaz de usuario en bloques independientes para crear componentes escalables y reutilizables.
 
 **Estructura de código**
