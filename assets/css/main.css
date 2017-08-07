@@ -1,27 +1,152 @@
 @import url("https://fonts.google.com/?selection.family=Open+Sans:400,700&query=op");
-.flex-container {
-  display: flex; }
+* {
+  box-sizing: boder-box;
+  margin: 0;
+  padding: 0; }
 
-.a-menu {
-  justify-content: flex-end;
-  background-color: #f04949;
-  text-decoration: none; }
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto; }
 
-.a-menu__item {
-  list-style: none; }
+.templateRow, .row:before, .row:after {
+  content: " ";
+  display: table; }
 
-.a-menu__item__link {
-  text-decoration: none;
-  color: #fff; }
+.row:after {
+  clear: both; }
 
-.portfolio.flex-container {
-  flex-direction: column;
-  padding: 70px;
-  text-align: center; }
+[class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left; }
+
+.col-1 {
+  width: 8.3333333333%; }
+
+.col-2 {
+  width: 16.6666666667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.3333333333%; }
+
+.col-5 {
+  width: 41.6666666667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.3333333333%; }
+
+.col-8 {
+  width: 66.6666666667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.3333333333%; }
+
+.col-11 {
+  width: 91.6666666667%; }
+
+.col-12 {
+  width: 100%; }
 
 body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif; }
+
+.menu {
+  background-color: #f04949;
+  padding: 10px; }
+  .menu .menu__list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex; }
+  .menu .menu__list--item {
+    display: block;
+    float: left;
+    padding: 0 6%;
+    color: #fff;
+    margin: 0; }
+  .menu img {
+    background-color: #fff;
+    border: 3px solid #203748;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; }
+  .menu .menu__list--link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0; }
+    .menu .menu__list--link:hover {
+      background-color: #203748;
+      padding: 10px;
+      border-radius: 5px; }
+
+.informacion {
+  background-color: #203748;
+  color: #fff;
+  text-align: center; }
+  .informacion .informacion__box {
+    padding: 5% 0; }
+  .informacion .flex-container {
+    display: flex; }
+  .informacion .informacion__circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    float: right; }
+  .informacion .informacion__circle--img {
+    color: #203748;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .informacion .informacion__datos {
+    text-align: left;
+    float: left;
+    width: 80%; }
+  .informacion .informacion__datos--title {
+    color: #39d084; }
+  .informacion .informacion__datos--btn {
+    text-decoration: none;
+    background-color: #39d084;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px; }
+    .informacion .informacion__datos--btn:hover {
+      background-color: #fff;
+      color: #39d084; }
+  .informacion .informacion__redes {
+    margin: 0 auto; }
+
+#portfolio {
+  margin: 0 auto; }
+  #portfolio .portfolio__box {
+    padding: 5% 0; }
+  #portfolio .portfolio__box--title {
+    text-align: center;
+    color: #203748; }
+  #portfolio .portfolio__linea {
+    display: flex; }
+  #portfolio .portfolio__linea--img {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 80px; }
+  #portfolio img {
+    width: 350px; }
+  #portfolio .portfolio__linea--p {
+    color: #203748; }
 
 /*# sourceMappingURL=main.css.map */
